@@ -1,5 +1,6 @@
-package com.example.payroll;
+package com.example.payroll.order;
 
+import com.example.payroll.order.Status;
 import org.springframework.hateoas.CollectionModel;
 import org.springframework.hateoas.EntityModel;
 import org.springframework.hateoas.MediaTypes;

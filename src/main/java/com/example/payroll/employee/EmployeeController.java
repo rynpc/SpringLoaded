@@ -1,4 +1,4 @@
-package com.example.payroll;
+package com.example.payroll.employee;
 
 import java.util.List;
 import java.util.stream.Collectors;

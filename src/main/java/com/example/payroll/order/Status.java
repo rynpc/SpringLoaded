@@ -1,6 +1,6 @@
-package com.example.payroll;
+package com.example.payroll.order;
 
-enum Status {
+public enum Status {
 
     IN_PROGRESS, //
     COMPLETED, //
