@@ -1,3 +1,24 @@
+# curl -X PUT localhost:8080/employees/3 -H 'Content-type:application/json' -d '{"name": "Samwise Gamgee", "role": "ring bearer"}'
+PUT localhost:8080/employees/3
+Content-Type: application/json
+
+{"name": "Samwise Gamgee", "role": "ring bearer"}
+
+###
+
+# curl -X POST localhost:8080/employees -H 'Content-type:application/json' -d '{"name": "Samwise Gamgee", "role": "gardener"}'
+POST localhost:8080/employees
+Content-Type: application/json
+
+{"namer": "Sauron", "role": "dark lord"}
+
+###
+
+# curl -v localhost:8080/employees/99
+GET localhost:8080/employees/2
+
+###
+
 # curl -v localhost:8080/employees
 GET localhost:8080/employees
 
